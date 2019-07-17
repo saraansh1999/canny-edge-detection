@@ -119,6 +119,8 @@ def detect(img):
 
 img_original = cv2.imread('2000m.png', 1)
 
+
+# To explore the LAB color space #
 #-----Converting image to LAB Color model----------------------------------- 
 # lab= cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
 # cv2.imshow("lab",lab)
